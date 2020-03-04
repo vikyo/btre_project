@@ -1,0 +1,16 @@
+Create project folder and then create the virtual environment
+Virtual environment setup 
+    pip freeze to see the installed packages 
+    python -m venv ./venv(any_name)
+
+Activate venv
+    source ./venv/bin/activate
+
+Install Django 
+    pip install django==2.1.1
+
+Create Project
+    django-admin startproject <folder-name> .
+
+Run Project
+    python manage.py runserver
