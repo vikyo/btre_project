@@ -31,3 +31,11 @@ Exploring the initial files
 L25
 To create app 
     python manage.py startapp <name>
+
+L26
+    use the templates to inject the files, jinga plugin is used
+
+L27
+    The static files can be generated using 'python manage.py collectstatic',it will
+    create the static folder in the root and put the static files there but remember 
+    not to push the file on to git so make entry in gitignore
